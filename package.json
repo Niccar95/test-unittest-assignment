@@ -6,9 +6,22 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "collectCoverage": true,
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "<rootDir>/src/__mocks__/stylesMock.ts"
+    },
+    "testEnvironment": "jsdom"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.1.2",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
