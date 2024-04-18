@@ -1,5 +1,6 @@
 import "./../styles/main.scss";
-import { addTodo, removeAllTodos } from "./functions";
+import { clearTodos } from "./clearTodos";
+import { addTodo } from "./functions";
 import { createHtml, displayError } from "./htmlFunctions";
 import { Todo } from "./models/todo";
 
@@ -30,11 +31,6 @@ export function createNewTodo(todoText: string, todos: Todo[]) {
   } else {
     displayError(result.error, true);
   }
-}
-
-function clearTodos(todos: Todo[]) {
-  removeAllTodos(todos);
-  createHtml(todos);
 }
 
 //createHtml(todos);

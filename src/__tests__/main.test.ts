@@ -10,6 +10,9 @@ describe("Testing individual functions", () => {
   let mockDisplayError: jest.SpyInstance<void>;
 
   beforeEach(() => {
+    mockAddTodo = jest.spyOn(functions, "addTodo");
+    mockCreateHTML = jest.spyOn(htmlFunctions, "createHtml");
+    mockDisplayError = jest.spyOn(htmlFunctions, "displayError");
     document.body.innerHTML = `<div id="app">
     <form id="newTodoForm">
       <div>
@@ -21,10 +24,12 @@ describe("Testing individual functions", () => {
     </form>
     <ul id="todos" class="todo"></ul>
   </div>`;
+  });
 
-    mockAddTodo = jest.spyOn(functions, "addTodo");
-    mockCreateHTML = jest.spyOn(htmlFunctions, "createHtml");
-    mockDisplayError = jest.spyOn(htmlFunctions, "displayError");
+  afterEach(() => {
+    mockAddTodo.mockReset();
+    mockCreateHTML.mockReset();
+    mockDisplayError.mockReset();
   });
 
   test("It should call the createHtml function", () => {

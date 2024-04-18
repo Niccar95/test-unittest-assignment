@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1713363046827" clover="3.2.0">
-  <project timestamp="1713363046827" name="All files">
-    <metrics statements="52" coveredstatements="34" conditionals="9" coveredconditionals="6" methods="12" coveredmethods="7" elements="73" coveredelements="47" complexity="0" loc="52" ncloc="52" packages="2" files="4" classes="4"/>
+<coverage generated="1713464864275" clover="3.2.0">
+  <project timestamp="1713464864275" name="All files">
+    <metrics statements="56" coveredstatements="36" conditionals="9" coveredconditionals="5" methods="12" coveredmethods="7" elements="77" coveredelements="48" complexity="0" loc="56" ncloc="56" packages="2" files="5" classes="5"/>
     <package name="ts">
-      <metrics statements="50" coveredstatements="32" conditionals="9" coveredconditionals="6" methods="11" coveredmethods="6"/>
+      <metrics statements="54" coveredstatements="34" conditionals="9" coveredconditionals="5" methods="11" coveredmethods="6"/>
+      <file name="clearTodos.ts" path="C:\Users\Lenovo\Desktop\Testning\test-unittest-assignment\src\ts\clearTodos.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
       <file name="functions.ts" path="C:\Users\Lenovo\Desktop\Testning\test-unittest-assignment\src\ts\functions.ts">
         <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
         <line num="5" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
       </file>
       <file name="htmlFunctions.ts" path="C:\Users\Lenovo\Desktop\Testning\test-unittest-assignment\src\ts\htmlFunctions.ts">
-        <metrics statements="22" coveredstatements="11" conditionals="3" coveredconditionals="1" methods="4" coveredmethods="2"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <metrics statements="22" coveredstatements="7" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="17" count="0" type="stmt"/>
@@ -36,39 +44,38 @@
         <line num="26" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="43" count="1" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="43" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
       </file>
       <file name="main.ts" path="C:\Users\Lenovo\Desktop\Testning\test-unittest-assignment\src\ts\main.ts">
-        <metrics statements="17" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="1"/>
+        <metrics statements="16" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
       </file>
     </package>
     <package name="ts.models">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="todo.ts" path="C:\Users\Lenovo\Desktop\Testning\test-unittest-assignment\src\ts\models\todo.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
       </file>
     </package>
